@@ -1,0 +1,22 @@
+PODS:
+  - MJExtension (3.0.16)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+
+DEPENDENCIES:
+  - MJExtension
+  - Realm (~> 3.14.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+    - Realm
+
+SPEC CHECKSUMS:
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+
+PODFILE CHECKSUM: 4464f0c89bc4872312ec1b31ae9d40a08e796e9f
+
+COCOAPODS: 1.6.1

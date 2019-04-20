@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <RLMRealmConfiguration.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //查看默认数据库路径 通过官方的 Realm Brewser App可查看数据库结构
+    //下载链接:https://itunes.apple.com/cn/app/realm-browser/id1007457278?mt=12
+
+    NSLog(@"%@",[RLMRealmConfiguration defaultConfiguration].fileURL);
+    
     return YES;
 }
 
