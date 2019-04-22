@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183EEC46226DBA1E002B219F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EEC45226DBA1E002B219F /* Test.m */; };
 		18AEF87C226B11CF00027BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEF87B226B11CF00027BC3 /* AppDelegate.m */; };
 		18AEF87F226B11CF00027BC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEF87E226B11CF00027BC3 /* ViewController.m */; };
 		18AEF882226B11CF00027BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF880226B11CF00027BC3 /* Main.storyboard */; };
@@ -14,10 +15,13 @@
 		18AEF887226B11D000027BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AEF885226B11D000027BC3 /* LaunchScreen.storyboard */; };
 		18AEF88A226B11D000027BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEF889226B11D000027BC3 /* main.m */; };
 		18AEF892226B1D9300027BC3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AEF891226B1D9300027BC3 /* Person.m */; };
+		18CFE6A0226DACF70009E171 /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFE69F226DACF70009E171 /* Other.m */; };
 		5B02D55E4259A5469A0B89C7 /* libPods-RealmDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE59099662C1B8E207E00359 /* libPods-RealmDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183EEC44226DBA1E002B219F /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		183EEC45226DBA1E002B219F /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		18AEF877226B11CF00027BC3 /* RealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AEF87A226B11CF00027BC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18AEF87B226B11CF00027BC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		18AEF889226B11D000027BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18AEF890226B1D9300027BC3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		18AEF891226B1D9300027BC3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18CFE69E226DACF70009E171 /* Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		18CFE69F226DACF70009E171 /* Other.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Other.m; sourceTree = "<group>"; };
 		62B9772F97F9FD782001975F /* Pods-RealmDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDemo.release.xcconfig"; path = "Target Support Files/Pods-RealmDemo/Pods-RealmDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6BD84E753D845E90A51D5394 /* Pods-RealmDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDemo.debug.xcconfig"; path = "Target Support Files/Pods-RealmDemo/Pods-RealmDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EE59099662C1B8E207E00359 /* libPods-RealmDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +80,10 @@
 				18AEF87E226B11CF00027BC3 /* ViewController.m */,
 				18AEF890226B1D9300027BC3 /* Person.h */,
 				18AEF891226B1D9300027BC3 /* Person.m */,
+				18CFE69E226DACF70009E171 /* Other.h */,
+				18CFE69F226DACF70009E171 /* Other.m */,
+				183EEC44226DBA1E002B219F /* Test.h */,
+				183EEC45226DBA1E002B219F /* Test.m */,
 				18AEF880226B11CF00027BC3 /* Main.storyboard */,
 				18AEF883226B11D000027BC3 /* Assets.xcassets */,
 				18AEF885226B11D000027BC3 /* LaunchScreen.storyboard */,
@@ -198,6 +208,8 @@
 			files = (
 				18AEF87F226B11CF00027BC3 /* ViewController.m in Sources */,
 				18AEF88A226B11D000027BC3 /* main.m in Sources */,
+				18CFE6A0226DACF70009E171 /* Other.m in Sources */,
+				183EEC46226DBA1E002B219F /* Test.m in Sources */,
 				18AEF892226B1D9300027BC3 /* Person.m in Sources */,
 				18AEF87C226B11CF00027BC3 /* AppDelegate.m in Sources */,
 			);

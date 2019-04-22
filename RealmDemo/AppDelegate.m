@@ -19,9 +19,13 @@
     
     //查看默认数据库路径 通过官方的 Realm Brewser App可查看数据库结构
     //下载链接:https://itunes.apple.com/cn/app/realm-browser/id1007457278?mt=12
+    RLMRealmConfiguration * config = [RLMRealmConfiguration defaultConfiguration];
+    NSLog(@"%@",config.fileURL);
+    //设置数据库版本 后期表字段变更 数据库升级可根据版本进行操作
+    config.schemaVersion = 1;
 
-    NSLog(@"%@",[RLMRealmConfiguration defaultConfiguration].fileURL);
-    
+    [RLMRealmConfiguration setDefaultConfiguration:config];
+    [RLMRealm defaultRealm];
     return YES;
 }
 
